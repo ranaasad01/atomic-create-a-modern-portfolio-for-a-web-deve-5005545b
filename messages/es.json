@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "hire": "Contratarme"
+  },
+  "footer": {
+    "tagline": "Creando experiencias digitales inmersivas con tecnologías web modernas. Abierto a nuevas oportunidades.",
+    "available": "Disponible para trabajo freelance",
+    "navigation": "Navegación",
+    "connect": "Conectar",
+    "copyright": "© {year} {name}. Todos los derechos reservados.",
+    "backToTop": "Volver arriba"
+  },
+  "home": {
+    "hero": {
+      "greeting": "Hola, soy",
+      "name": "Alex Chen",
+      "role1": "Desarrollador Full-Stack",
+      "role2": "Ingeniero UI/UX",
+      "role3": "Programador Creativo",
+      "description": "Creo experiencias digitales inmersivas en la intersección del diseño e ingeniería. Especializado en React, Next.js y tecnologías web de vanguardia.",
+      "cta": "Ver Mi Trabajo",
+      "ctaSecondary": "Descargar CV"
+    },
+    "stats": {
+      "projects": "Proyectos Entregados",
+      "experience": "Años de Experiencia",
+      "clients": "Clientes Satisfechos",
+      "commits": "Commits en GitHub"
+    },
+    "skills": {
+      "title": "Stack Tecnológico",
+      "subtitle": "Tecnologías que utilizo diariamente para construir aplicaciones escalables y de alto rendimiento."
+    },
+    "featured": {
+      "title": "Trabajo Destacado",
+      "subtitle": "Una selección de proyectos que muestran mi rango y profundidad.",
+      "viewAll": "Ver Todos los Proyectos"
+    },
+    "cta": {
+      "title": "¿Listo para crear algo extraordinario?",
+      "subtitle": "Actualmente estoy disponible para proyectos freelance y oportunidades a tiempo completo.",
+      "button": "Ponte en Contacto"
+    }
+  },
+  "projects": {
+    "hero": {
+      "title": "Mis Proyectos",
+      "subtitle": "Una colección seleccionada de trabajo que abarca aplicaciones full-stack, sistemas de diseño e interfaces experimentales."
+    },
+    "filter": {
+      "all": "Todos",
+      "fullstack": "Full-Stack",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "design": "Diseño"
+    },
+    "heading": "Proyectos destacados",
+    "label": "Proyecto",
+    "live": "Sitio en vivo",
+    "source": "Ver código",
+    "sub": "Una selección de trabajos recientes que muestran diseño, desarrollo y resolución de problemas.",
+    "view_all": "Ver todos los proyectos"
+  },
+  "about": {
+    "hero": {
+      "title": "Sobre mí",
+      "subtitle": "Desarrollador, diseñador y aprendiz perpetuo con base en San Francisco."
+    },
+    "story": {
+      "title": "Mi historia",
+      "p1": "Comencé a programar a los 16 años, creando pequeños juegos y sitios web por diversión. Lo que comenzó como curiosidad se convirtió en una carrera de más de 6 años de desarrollo profesional.",
+      "p2": "Hoy me especializo en construir aplicaciones web full-stack con enfoque en rendimiento, accesibilidad y experiencias de usuario deliciosas. Creo que el gran software es técnicamente excelente y hermoso de usar.",
+      "p3": "Cuando no estoy programando, me encontrarás caminando senderos alrededor del Área de la Bahía, experimentando con arte generativo o contribuyendo a proyectos de código abierto."
+    },
+    "experience": {
+      "title": "Experiencia"
+    },
+    "skills": {
+      "title": "Habilidades"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Trabajemos juntos",
+      "subtitle": "¿Tienes un proyecto en mente? Me encantaría saber sobre él. Envíame un mensaje y te responderé en 24 horas."
+    },
+    "form": {
+      "name": "Tu nombre",
+      "email": "Correo electrónico",
+      "subject": "Asunto",
+      "message": "Tu mensaje",
+      "send": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado! Me pondré en contacto pronto.",
+      "namePlaceholder": "Juan Pérez",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "subjectPlaceholder": "Consulta de proyecto",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto..."
+    },
+    "info": {
+      "email": "Correo electrónico",
+      "location": "Ubicación",
+      "availability": "Disponibilidad",
+      "availabilityValue": "Abierto a oportunidades",
+      "response": "Tiempo de respuesta",
+      "responseValue": "En 24 horas"
+    }
+  },
+  "cta": {
+    "badge": "¿Listo para comenzar?",
+    "button_primary": "Ponte en contacto",
+    "footnote": "Generalmente respondo en 24 horas",
+    "heading": "Construyamos algo genial",
+    "sub": "¿Tienes un proyecto en mente? Me encantaría saber sobre él."
+  },
+  "hero": {
+    "badge": "Desarrollador web y tecnólogo creativo",
+    "cta_primary": "Ver mi trabajo",
+    "cta_secondary": "Contáctame",
+    "headline1": "Creando experiencias digitales",
+    "headline2": "con código y creatividad",
+    "scroll": "Desplázate para explorar",
+    "sub": "Construyo aplicaciones web rápidas e interactivas con tecnología moderna y diseño reflexivo."
+  },
+  "skills": {
+    "heading": "Habilidades y experiencia",
+    "label": "Tecnologías",
+    "point1": "Frameworks frontend y JavaScript moderno",
+    "point2": "Gráficos 3D, animaciones y efectos interactivos",
+    "point3": "Optimización de rendimiento y diseño responsivo",
+    "proficiency": "Dominio",
+    "sub": "Especializado en crear experiencias web inmersivas con herramientas de vanguardia."
+  },
+  "testimonials": {
+    "heading": "Qué dicen las personas",
+    "label": "Testimonio"
+  }
+}

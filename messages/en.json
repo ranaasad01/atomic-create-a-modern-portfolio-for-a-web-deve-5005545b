@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "hire": "Hire Me"
+  },
+  "footer": {
+    "tagline": "Building immersive digital experiences with modern web technologies. Open to new opportunities.",
+    "available": "Available for freelance work",
+    "navigation": "Navigation",
+    "connect": "Connect",
+    "copyright": "© {year} {name}. All rights reserved.",
+    "backToTop": "Back to top"
+  },
+  "home": {
+    "hero": {
+      "greeting": "Hello, I'm",
+      "name": "Alex Chen",
+      "role1": "Full-Stack Developer",
+      "role2": "UI/UX Engineer",
+      "role3": "Creative Coder",
+      "description": "I craft immersive digital experiences that live at the intersection of design and engineering. Specializing in React, Next.js, and cutting-edge web technologies.",
+      "cta": "View My Work",
+      "ctaSecondary": "Download CV"
+    },
+    "stats": {
+      "projects": "Projects Shipped",
+      "experience": "Years Experience",
+      "clients": "Happy Clients",
+      "commits": "GitHub Commits"
+    },
+    "skills": {
+      "title": "Tech Stack",
+      "subtitle": "Technologies I work with daily to build scalable, performant applications."
+    },
+    "featured": {
+      "title": "Featured Work",
+      "subtitle": "A selection of projects that showcase my range and depth.",
+      "viewAll": "View All Projects"
+    },
+    "cta": {
+      "title": "Ready to build something great?",
+      "subtitle": "I'm currently available for freelance projects and full-time opportunities.",
+      "button": "Get In Touch"
+    }
+  },
+  "projects": {
+    "hero": {
+      "title": "My Projects",
+      "subtitle": "A curated collection of work spanning full-stack applications, design systems, and experimental interfaces."
+    },
+    "filter": {
+      "all": "All",
+      "fullstack": "Full-Stack",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "design": "Design"
+    },
+    "heading": "Featured projects",
+    "label": "Project",
+    "live": "Live site",
+    "source": "View code",
+    "sub": "A selection of recent work showcasing design, development, and problem-solving.",
+    "view_all": "See all projects"
+  },
+  "about": {
+    "hero": {
+      "title": "About Me",
+      "subtitle": "Developer, designer, and perpetual learner based in San Francisco."
+    },
+    "story": {
+      "title": "My Story",
+      "p1": "I started coding at 16, building small games and websites for fun. What began as curiosity turned into a career spanning over 6 years of professional development.",
+      "p2": "Today I specialize in building full-stack web applications with a focus on performance, accessibility, and delightful user experiences. I believe great software is both technically excellent and beautiful to use.",
+      "p3": "When I'm not coding, you'll find me hiking trails around the Bay Area, experimenting with generative art, or contributing to open-source projects."
+    },
+    "experience": {
+      "title": "Experience"
+    },
+    "skills": {
+      "title": "Skills"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Let's Work Together",
+      "subtitle": "Have a project in mind? I'd love to hear about it. Send me a message and I'll get back to you within 24 hours."
+    },
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent! I'll be in touch soon.",
+      "namePlaceholder": "John Doe",
+      "emailPlaceholder": "john@example.com",
+      "subjectPlaceholder": "Project inquiry",
+      "messagePlaceholder": "Tell me about your project..."
+    },
+    "info": {
+      "email": "Email",
+      "location": "Location",
+      "availability": "Availability",
+      "availabilityValue": "Open to opportunities",
+      "response": "Response Time",
+      "responseValue": "Within 24 hours"
+    }
+  },
+  "cta": {
+    "badge": "Ready to start?",
+    "button_primary": "Get in touch",
+    "footnote": "Typically respond within 24 hours",
+    "heading": "Let's build something great",
+    "sub": "Have a project in mind? I'd love to hear about it."
+  },
+  "hero": {
+    "badge": "Web Developer & Creative Technologist",
+    "cta_primary": "View my work",
+    "cta_secondary": "Contact me",
+    "headline1": "Crafting digital experiences",
+    "headline2": "with code and creativity",
+    "scroll": "Scroll to explore",
+    "sub": "I build fast, interactive web applications with modern tech and thoughtful design."
+  },
+  "skills": {
+    "heading": "Skills & expertise",
+    "label": "Technologies",
+    "point1": "Frontend frameworks and modern JavaScript",
+    "point2": "3D graphics, animations, and interactive effects",
+    "point3": "Performance optimization and responsive design",
+    "proficiency": "Proficiency",
+    "sub": "Specialized in creating immersive web experiences with cutting-edge tools."
+  },
+  "testimonials": {
+    "heading": "What people say",
+    "label": "Testimonial"
+  }
+}
