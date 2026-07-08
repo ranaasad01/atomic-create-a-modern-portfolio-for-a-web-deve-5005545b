@@ -627,7 +627,13 @@ function TestimonialsSection() {
   const t = useTranslations();
   return (
     <section className="py-24 md:py-32 relative" data-atomic-id="a1jlb1s3">
-      <div className="max-w-7xl mx-auto px-6" data-atomic-id="a1u6qc0k">
+      <div
+        className="max-w-7xl mx-auto px-6"
+        data-atomic-id="a1u6qc0k"
+        style={{
+          color: "#06b6d4",
+          fontSize: "64px"
+        }}>
         {/* Header */}
         <motion.div
           variants={staggerContainer}
