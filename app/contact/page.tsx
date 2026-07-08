@@ -177,7 +177,7 @@ function FloatingInput({
   const baseClass =
     "w-full bg-white/5 border rounded-xl px-4 pt-6 pb-2 text-white text-sm outline-none transition-all duration-300 resize-none placeholder-transparent " +
     (error
-      ? "border-cyan-500/60 focus:border-cyan-500 focus:shadow-[0_0_0_3px_rgba(239,68,68,0.15)]"
+      ? "border-rose-500/60 focus:border-rose-500 focus:shadow-[0_0_0_3px_rgba(239,68,68,0.15)]"
       : focused
       ? "border-[#6c63ff]/70 shadow-[0_0_0_3px_rgba(108,99,255,0.18)]"
       : "border-white/10 hover:border-white/20");
@@ -229,7 +229,7 @@ function FloatingInput({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -4 }}
             transition={{ duration: 0.2 }}
-            className="mt-1.5 text-xs text-cyan-400 flex items-center gap-1"
+            className="mt-1.5 text-xs text-rose-400 flex items-center gap-1"
           >
             <AlertCircle size={11} />
             {error}
@@ -404,8 +404,8 @@ export default function ContactPage() {
         >
           <motion.div variants={fadeInUp} className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#6c63ff]/10 border border-[#6c63ff]/20 mb-6">
             <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75" />
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500" />
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75" />
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-rose-500" />
             </span>
             <span className="text-[#6c63ff] text-xs font-semibold tracking-widest uppercase">
               Available for work
@@ -468,9 +468,9 @@ export default function ContactPage() {
                         initial={{ scale: 0 }}
                         animate={{ scale: 1 }}
                         transition={{ type: "spring", stiffness: 260, damping: 20, delay: 0.1 }}
-                        className="flex h-20 w-20 items-center justify-center rounded-full bg-cyan-500/15 border border-cyan-500/30 mb-6"
+                        className="flex h-20 w-20 items-center justify-center rounded-full bg-rose-500/15 border border-rose-500/30 mb-6"
                       >
-                        <CheckCircle size={36} className="text-cyan-400" />
+                        <CheckCircle size={36} className="text-rose-400" />
                       </motion.div>
                       <h3 className="text-2xl font-bold text-white mb-2">Message sent!</h3>
                       <p className="text-white/50 text-sm max-w-xs leading-relaxed mb-8">
@@ -612,7 +612,7 @@ export default function ContactPage() {
                 <div>
                   <div className="flex items-center gap-2 mb-1">
                     <h3 className="text-white font-semibold text-sm">Open to opportunities</h3>
-                    <span className="px-2 py-0.5 rounded-full bg-cyan-500/15 border border-cyan-500/25 text-cyan-400 text-[10px] font-semibold uppercase tracking-wider">
+                    <span className="px-2 py-0.5 rounded-full bg-rose-500/15 border border-rose-500/25 text-rose-400 text-[10px] font-semibold uppercase tracking-wider">
                       Active
                     </span>
                   </div>

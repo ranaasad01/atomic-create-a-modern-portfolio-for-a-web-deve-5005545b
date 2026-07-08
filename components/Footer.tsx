@@ -68,10 +68,10 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-1">
               <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75" />
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500" />
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-rose-500" />
               </span>
-              <span className="text-cyan-400 text-xs font-medium ml-1">
+              <span className="text-rose-400 text-xs font-medium ml-1">
                 {t("footer.available")}
               </span>
             </div>

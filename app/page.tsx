@@ -315,10 +315,10 @@ function HeroSection() {
               data-atomic-id="a1qt4ihf">
               <span className="relative flex h-2 w-2" data-atomic-id="a1jtbwdy">
                 <span
-                  className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"
+                  className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"
                   data-atomic-id="a122e8e1" />
                 <span
-                  className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"
+                  className="relative inline-flex rounded-full h-2 w-2 bg-rose-500"
                   data-atomic-id="a13czuij" />
               </span>
               {t("hero.badge")}

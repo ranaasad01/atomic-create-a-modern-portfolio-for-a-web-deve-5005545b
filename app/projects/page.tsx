@@ -65,7 +65,7 @@ const projects: ProjectData[] = [
     featured: true,
     stars: 890,
     forks: 64,
-    color: "from-cyan-500 to-cyan-600",
+    color: "from-rose-500 to-rose-600",
     glowColor: "rgba(0,212,255,0.4)",
   },
   {
@@ -81,7 +81,7 @@ const projects: ProjectData[] = [
     featured: true,
     stars: 1200,
     forks: 98,
-    color: "from-cyan-500 to-teal-600",
+    color: "from-rose-500 to-teal-600",
     glowColor: "rgba(16,185,129,0.4)",
   },
   {
@@ -139,7 +139,7 @@ const projects: ProjectData[] = [
     githubUrl: "https://github.com/alexchen/portfolio-os",
     stars: 3100,
     forks: 245,
-    color: "from-sky-400 to-cyan-500",
+    color: "from-sky-400 to-rose-500",
     glowColor: "rgba(56,189,248,0.4)",
   },
   {
