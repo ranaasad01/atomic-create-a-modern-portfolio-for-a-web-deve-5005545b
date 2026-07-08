@@ -664,7 +664,10 @@ function TestimonialsSection() {
               <div
                 className="flex gap-1 mb-5"
                 data-atomic-id="aaev1ao"
-                data-atomic-instance={i}>
+                data-atomic-instance={i}
+                style={i === 1 ? {
+                  color: "#d946ef"
+                } : undefined}>
                 {Array.from({ length: 5 }).map((_, si) => (
                   <Star
                     key={si}
