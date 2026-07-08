@@ -237,7 +237,10 @@ function SkillBar({ skill, i }: { skill: (typeof skills)[0]; i: number }) {
       </div>
       <div
         className="h-1.5 rounded-full bg-white/5 overflow-hidden"
-        data-atomic-id="a10qjec1">
+        data-atomic-id="a10qjec1"
+        style={{
+          color: "#f59e0b"
+        }}>
         <motion.div
           className="h-full rounded-full"
           style={{
