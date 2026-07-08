@@ -1,7 +1,8 @@
 "use client";
 
-import { motion, useScroll, useTransform, type Variants } from "framer-motion";
 import { useRef, useState } from "react";
+import { motion, useScroll, useTransform, type Variants } from "framer-motion";
+
 import Link from "next/link";
 import { ArrowRight, Code2 as Github, Briefcase as Linkedin, Mail, Star, Code, Layout, Terminal, Activity, Sparkles, Check, Eye, FileCode, GitBranch } from 'lucide-react';
 import { BRAND, ACCENT_COLOR, ACCENT_CYAN } from "@/lib/data";
@@ -148,57 +149,60 @@ function ProjectCard({
         style={{ perspective: 800 }}
       >
         {/* Image */}
-        <div className="relative h-52 overflow-hidden">
+        <div className="relative h-52 overflow-hidden" data-atomic-id="a1277bg4">
           <img
             src={project.image}
             alt={project.title}
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-          />
+            data-atomic-id="adrwvg1" />
           <div
             className="absolute inset-0 opacity-60"
             style={{
               background: `linear-gradient(to bottom, transparent 40%, #111 100%)`,
             }}
-          />
+            data-atomic-id="adtbla1" />
           {/* Color accent top bar */}
           <div
             className="absolute top-0 left-0 right-0 h-0.5"
             style={{ background: project.color }}
-          />
+            data-atomic-id="adw59j1" />
         </div>
 
         {/* Content */}
-        <div className="p-6 space-y-4">
-          <h3 className="font-space-grotesk text-xl font-bold text-white tracking-tight">
+        <div className="p-6 space-y-4" data-atomic-id="a12a0zp4">
+          <h3
+            className="font-space-grotesk text-xl font-bold text-white tracking-tight"
+            data-atomic-id="a13klhdf">
             {project.title}
           </h3>
-          <p className="text-white/60 text-sm leading-relaxed">
+          <p
+            className="text-white/60 text-sm leading-relaxed"
+            data-atomic-id="axhhtai">
             {project.description}
           </p>
 
           {/* Tags */}
-          <div className="flex flex-wrap gap-2">
-            {project.tags.map((tag) => (
-              <span
-                key={tag}
-                className="px-2.5 py-1 rounded-full text-xs font-medium bg-white/5 border border-white/10 text-white/70"
-              >
-                {tag}
-              </span>
-            ))}
+          <div className="flex flex-wrap gap-2" data-atomic-id="arfwe81">
+            {project.tags.map((tag, __atomicIdx) => (<span
+              key={tag}
+              className="px-2.5 py-1 rounded-full text-xs font-medium bg-white/5 border border-white/10 text-white/70"
+              data-atomic-id="a1wnx7j2"
+              data-atomic-instance={__atomicIdx}>
+              {tag}
+            </span>))}
           </div>
 
           {/* Links */}
-          <div className="flex items-center gap-3 pt-1">
+          <div className="flex items-center gap-3 pt-1" data-atomic-id="a1dk17bg">
             {project.liveUrl && (
               <a
                 href={project.liveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 text-sm font-medium text-white/80 hover:text-white transition-colors duration-200 group/link"
-              >
+                data-atomic-id="a2ypq49">
                 <Eye className="w-4 h-4" />
-                <span>{t("projects.live")}</span>
+                <span data-atomic-id="axqnor3">{t("projects.live")}</span>
                 <ArrowRight className="w-3 h-3 opacity-0 -translate-x-1 group-hover/link:opacity-100 group-hover/link:translate-x-0 transition-all duration-200" />
               </a>
             )}
@@ -208,9 +212,9 @@ function ProjectCard({
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 text-sm font-medium text-white/50 hover:text-white/80 transition-colors duration-200"
-              >
+                data-atomic-id="a19822wr">
                 <Github className="w-4 h-4" />
-                <span>{t("projects.source")}</span>
+                <span data-atomic-id="a1sx5t1t">{t("projects.source")}</span>
               </a>
             )}
           </div>
@@ -227,11 +231,13 @@ function SkillBar({ skill, i }: { skill: (typeof skills)[0]; i: number }) {
       className="space-y-2"
       custom={i}
     >
-      <div className="flex items-center justify-between">
-        <span className="text-sm font-medium text-white/80">{skill.name}</span>
-        <span className="text-xs text-white/40 font-mono">{skill.level}%</span>
+      <div className="flex items-center justify-between" data-atomic-id="a10p4k7j">
+        <span className="text-sm font-medium text-white/80" data-atomic-id="a3y023l">{skill.name}</span>
+        <span className="text-xs text-white/40 font-mono" data-atomic-id="a58lo83">{skill.level}%</span>
       </div>
-      <div className="h-1.5 rounded-full bg-white/5 overflow-hidden">
+      <div
+        className="h-1.5 rounded-full bg-white/5 overflow-hidden"
+        data-atomic-id="a10qjec1">
         <motion.div
           className="h-full rounded-full"
           style={{
@@ -264,23 +270,25 @@ function HeroSection() {
       ref={ref}
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 pb-16"
-    >
+      data-atomic-id="a1dx0vhg">
       {/* Background mesh */}
-      <div className="absolute inset-0 pointer-events-none">
+      <div
+        className="absolute inset-0 pointer-events-none"
+        data-atomic-id="a142m85z">
         <div
           className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full opacity-20"
           style={{
             background: `radial-gradient(circle, ${ACCENT_COLOR}55 0%, transparent 70%)`,
             filter: "blur(80px)",
           }}
-        />
+          data-atomic-id="ap288u2" />
         <div
           className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] rounded-full opacity-10"
           style={{
             background: `radial-gradient(circle, ${ACCENT_CYAN}55 0%, transparent 70%)`,
             filter: "blur(60px)",
           }}
-        />
+          data-atomic-id="ap3n2yk" />
         {/* Grid overlay */}
         <div
           className="absolute inset-0 opacity-[0.03]"
@@ -288,9 +296,8 @@ function HeroSection() {
             backgroundImage: `linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)`,
             backgroundSize: "60px 60px",
           }}
-        />
+          data-atomic-id="ap6gr7k" />
       </div>
-
       <motion.div style={{ y, opacity }} className="relative z-10 w-full max-w-7xl mx-auto px-6">
         <motion.div
           variants={staggerContainer}
@@ -300,10 +307,16 @@ function HeroSection() {
         >
           {/* Badge */}
           <motion.div variants={scaleIn} className="mb-8">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm text-white/70">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75" />
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500" />
+            <span
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm text-sm text-white/70"
+              data-atomic-id="a1qt4ihf">
+              <span className="relative flex h-2 w-2" data-atomic-id="a1jtbwdy">
+                <span
+                  className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"
+                  data-atomic-id="a122e8e1" />
+                <span
+                  className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"
+                  data-atomic-id="a13czuij" />
               </span>
               {t("hero.badge")}
             </span>
@@ -314,14 +327,14 @@ function HeroSection() {
             variants={fadeInUp}
             className="font-space-grotesk text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance leading-[1.05] mb-6"
           >
-            <span className="text-white">{t("hero.headline1")}</span>
-            <br />
+            <span className="text-white" data-atomic-id="acp7fkn">{t("hero.headline1")}</span>
+            <br data-atomic-id="a1s70rp7" />
             <span
               className="bg-clip-text text-transparent"
               style={{
                 backgroundImage: `linear-gradient(135deg, ${ACCENT_COLOR}, ${ACCENT_CYAN})`,
               }}
-            >
+              data-atomic-id="afaentn">
               {t("hero.headline2")}
             </span>
           </motion.h1>
@@ -347,9 +360,11 @@ function HeroSection() {
                 boxShadow: `0 0 32px rgba(108,99,255,0.4)`,
               }}
             >
-              <span className="relative z-10">{t("hero.cta_primary")}</span>
+              <span className="relative z-10" data-atomic-id="a210b3d">{t("hero.cta_primary")}</span>
               <ArrowRight className="relative z-10 w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
-              <span className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <span
+                className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                data-atomic-id="a4m7jcd" />
             </Link>
             <Link
               href="/contact"
@@ -365,29 +380,30 @@ function HeroSection() {
             variants={staggerContainer}
             className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-12"
           >
-            {stats.map((stat) => (
-              <motion.div
-                key={stat.label}
-                variants={scaleIn}
-                className="text-center"
-              >
-                <div
-                  className="font-space-grotesk text-3xl md:text-4xl font-bold bg-clip-text text-transparent"
-                  style={{
-                    backgroundImage: `linear-gradient(135deg, #fff 40%, ${ACCENT_CYAN})`,
-                  }}
-                >
-                  {stat.value}
-                </div>
-                <div className="text-white/40 text-xs mt-1 font-medium uppercase tracking-wider">
-                  {stat.label}
-                </div>
-              </motion.div>
-            ))}
+            {stats.map((stat, __atomicIdx) => (<motion.div
+              key={stat.label}
+              variants={scaleIn}
+              className="text-center"
+            >
+              <div
+                className="font-space-grotesk text-3xl md:text-4xl font-bold bg-clip-text text-transparent"
+                style={{
+                  backgroundImage: `linear-gradient(135deg, #fff 40%, ${ACCENT_CYAN})`,
+                }}
+                data-atomic-id="a111qcy1"
+                data-atomic-instance={__atomicIdx}>
+                {stat.value}
+              </div>
+              <div
+                className="text-white/40 text-xs mt-1 font-medium uppercase tracking-wider"
+                data-atomic-id="a113572j"
+                data-atomic-instance={__atomicIdx}>
+                {stat.label}
+              </div>
+            </motion.div>))}
           </motion.div>
         </motion.div>
       </motion.div>
-
       {/* Scroll indicator */}
       <motion.div
         initial={{ opacity: 0, y: 10 }}
@@ -395,7 +411,9 @@ function HeroSection() {
         transition={{ delay: 1.4, duration: 0.6 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="text-white/30 text-xs tracking-widest uppercase">
+        <span
+          className="text-white/30 text-xs tracking-widest uppercase"
+          data-atomic-id="a62bltb">
           {t("hero.scroll")}
         </span>
         <motion.div
@@ -413,8 +431,11 @@ function HeroSection() {
 function ProjectsSection() {
   const t = useTranslations();
   return (
-    <section id="projects" className="py-24 md:py-32 relative">
-      <div className="max-w-7xl mx-auto px-6">
+    <section
+      id="projects"
+      className="py-24 md:py-32 relative"
+      data-atomic-id="a15dwio1">
+      <div className="max-w-7xl mx-auto px-6" data-atomic-id="a13svl1u">
         {/* Header */}
         <motion.div
           variants={staggerContainer}
@@ -487,7 +508,7 @@ function SkillsSection() {
       id="about"
       className="py-24 md:py-32 relative overflow-hidden"
       style={{ background: "linear-gradient(180deg, transparent, #0d0d14 50%, transparent)" }}
-    >
+      data-atomic-id="acz1r8i">
       {/* Accent glow */}
       <div
         className="absolute right-0 top-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full opacity-10 pointer-events-none"
@@ -495,10 +516,14 @@ function SkillsSection() {
           background: `radial-gradient(circle, ${ACCENT_CYAN}88 0%, transparent 70%)`,
           filter: "blur(80px)",
         }}
-      />
-
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        data-atomic-id="ahinro5" />
+      <div className="max-w-7xl mx-auto px-6" data-atomic-id="ahk2lsn">
+        <div
+          className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
+          data-atomic-id="a5kvqy"
+          style={{
+            color: "#84cc16"
+          }}>
           {/* Left: copy */}
           <motion.div
             variants={staggerContainer}
@@ -533,21 +558,20 @@ function SkillsSection() {
                 t("skills.point1"),
                 t("skills.point2"),
                 t("skills.point3"),
-              ].map((point) => (
-                <motion.li
-                  key={point}
-                  variants={fadeInLeft}
-                  className="flex items-start gap-3 text-white/70 text-sm"
-                >
-                  <span
-                    className="mt-0.5 flex-shrink-0 flex h-5 w-5 items-center justify-center rounded-full"
-                    style={{ background: `${ACCENT_COLOR}22`, border: `1px solid ${ACCENT_COLOR}44` }}
-                  >
-                    <Check className="w-3 h-3" style={{ color: ACCENT_COLOR }} />
-                  </span>
-                  {point}
-                </motion.li>
-              ))}
+              ].map((point, __atomicIdx) => (<motion.li
+                key={point}
+                variants={fadeInLeft}
+                className="flex items-start gap-3 text-white/70 text-sm"
+              >
+                <span
+                  className="mt-0.5 flex-shrink-0 flex h-5 w-5 items-center justify-center rounded-full"
+                  style={{ background: `${ACCENT_COLOR}22`, border: `1px solid ${ACCENT_COLOR}44` }}
+                  data-atomic-id="ayb53u2"
+                  data-atomic-instance={__atomicIdx}>
+                  <Check className="w-3 h-3" style={{ color: ACCENT_COLOR }} />
+                </span>
+                {point}
+              </motion.li>))}
             </motion.ul>
 
             {/* Tech stack pills */}
@@ -594,8 +618,8 @@ function SkillsSection() {
 function TestimonialsSection() {
   const t = useTranslations();
   return (
-    <section className="py-24 md:py-32 relative">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-24 md:py-32 relative" data-atomic-id="a1jlb1s3">
+      <div className="max-w-7xl mx-auto px-6" data-atomic-id="a1u6qc0k">
         {/* Header */}
         <motion.div
           variants={staggerContainer}
@@ -637,7 +661,10 @@ function TestimonialsSection() {
               }`}
             >
               {/* Stars */}
-              <div className="flex gap-1 mb-5">
+              <div
+                className="flex gap-1 mb-5"
+                data-atomic-id="aaev1ao"
+                data-atomic-instance={i}>
                 {Array.from({ length: 5 }).map((_, si) => (
                   <Star
                     key={si}
@@ -647,19 +674,32 @@ function TestimonialsSection() {
                 ))}
               </div>
 
-              <blockquote className="text-white/70 text-sm leading-relaxed mb-6">
+              <blockquote
+                className="text-white/70 text-sm leading-relaxed mb-6"
+                data-atomic-id="a1dppvfs"
+                data-atomic-instance={i}>
                 &ldquo;{item.quote}&rdquo;
               </blockquote>
 
-              <div className="flex items-center gap-3">
+              <div
+                className="flex items-center gap-3"
+                data-atomic-id="aahopjo"
+                data-atomic-instance={i}>
                 <img
                   src={item.avatar}
                   alt={item.name}
                   className="w-10 h-10 rounded-full object-cover ring-1 ring-white/10"
-                />
-                <div>
-                  <div className="text-white text-sm font-semibold">{item.name}</div>
-                  <div className="text-white/40 text-xs">{item.role}</div>
+                  data-atomic-id="a4y8ekx"
+                  data-atomic-instance={i} />
+                <div data-atomic-id="a4zn4ex" data-atomic-instance={i}>
+                  <div
+                    className="text-white text-sm font-semibold"
+                    data-atomic-id="a1pkeldo"
+                    data-atomic-instance={i}>{item.name}</div>
+                  <div
+                    className="text-white/40 text-xs"
+                    data-atomic-id="a1pltfi6"
+                    data-atomic-instance={i}>{item.role}</div>
                 </div>
               </div>
 
@@ -667,7 +707,8 @@ function TestimonialsSection() {
               <div
                 className="absolute top-0 right-6 w-12 h-0.5 rounded-b-full"
                 style={{ background: `linear-gradient(90deg, ${ACCENT_COLOR}, ${ACCENT_CYAN})` }}
-              />
+                data-atomic-id="a1mfw0sf"
+                data-atomic-instance={i} />
             </motion.div>
           ))}
         </motion.div>
@@ -681,7 +722,10 @@ function TestimonialsSection() {
 function CTASection() {
   const t = useTranslations();
   return (
-    <section id="contact" className="py-24 md:py-32 relative overflow-hidden">
+    <section
+      id="contact"
+      className="py-24 md:py-32 relative overflow-hidden"
+      data-atomic-id="acyt97f">
       {/* Background glow */}
       <motion.div
         variants={glowPulse}
@@ -695,10 +739,9 @@ function CTASection() {
             background: `radial-gradient(circle, ${ACCENT_COLOR}30 0%, transparent 70%)`,
             filter: "blur(60px)",
           }}
-        />
+          data-atomic-id="aqbhj3l" />
       </motion.div>
-
-      <div className="max-w-4xl mx-auto px-6 relative z-10">
+      <div className="max-w-4xl mx-auto px-6 relative z-10" data-atomic-id="arq8pyo">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -714,7 +757,7 @@ function CTASection() {
                 background: `${ACCENT_COLOR}11`,
                 color: ACCENT_COLOR,
               }}
-            >
+              data-atomic-id="a1qw6v3c">
               <Sparkles className="w-4 h-4" />
               {t("cta.badge")}
             </span>
@@ -747,12 +790,14 @@ function CTASection() {
               }}
             >
               <Mail className="w-4 h-4" />
-              <span>{t("cta.button_primary")}</span>
+              <span data-atomic-id="a10cjf5f">{t("cta.button_primary")}</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
-              <span className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <span
+                className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                data-atomic-id="a12xqnef" />
             </Link>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3" data-atomic-id="aqkmcwx">
               {[
                 { icon: Github, href: BRAND.github, label: "GitHub" },
                 { icon: Linkedin, href: BRAND.linkedin, label: "LinkedIn" },
@@ -786,7 +831,7 @@ function CTASection() {
 
 export default function HomePage() {
   return (
-    <main className="bg-[#0a0a0f] min-h-screen">
+    <main className="bg-[#0a0a0f] min-h-screen" data-atomic-id="a42oteo">
       <HeroSection />
       <ProjectsSection />
       <SkillsSection />
