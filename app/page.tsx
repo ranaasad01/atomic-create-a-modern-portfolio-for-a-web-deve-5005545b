@@ -631,7 +631,7 @@ function TestimonialsSection() {
         className="max-w-7xl mx-auto px-6"
         data-atomic-id="a1u6qc0k"
         style={{
-          color: "#84cc16",
+          color: "#22c55e",
           fontSize: "72px",
           borderRadius: "50%",
           margin: "40px"
