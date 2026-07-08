@@ -631,8 +631,9 @@ function TestimonialsSection() {
         className="max-w-7xl mx-auto px-6"
         data-atomic-id="a1u6qc0k"
         style={{
-          color: "#06b6d4",
-          fontSize: "64px"
+          color: "#84cc16",
+          fontSize: "64px",
+          borderRadius: "50%"
         }}>
         {/* Header */}
         <motion.div
