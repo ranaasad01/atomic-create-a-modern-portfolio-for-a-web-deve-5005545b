@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import { motion, useMotionValue, useTransform, useSpring, type Variants } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Download, MapPin, Mail, Code2 as Github, Briefcase as Linkedin, MessageCircle as Twitter, Calendar, Briefcase, Code2, Star, Zap, Globe, Database, Layers, Terminal, Cpu } from 'lucide-react';
@@ -13,7 +14,6 @@ import {
   scaleIn,
   slideInFromBottom,
 } from "@/lib/motion";
-import { useRef, useState, useEffect } from "react";
 
 // ─── Inline data ────────────────────────────────────────────────────────────
 
@@ -418,7 +418,7 @@ export default function AboutPage() {
               {/* Portrait frame */}
               <div className="relative w-72 h-80 md:w-80 md:h-96 rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_0_1px_rgba(255,255,255,0.05),0_32px_80px_-16px_rgba(0,0,0,0.8)]">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+                  src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/5005545b-3181-45d5-a7e1-b65378b75813/1dc00f04106f41e5b918759f33921e69.png?v=1783516034711"
                   alt="Alex Chen — Full-Stack Developer"
                   className="w-full h-full object-cover"
                   onError={(e) => {
