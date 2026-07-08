@@ -81,7 +81,7 @@ const projects: ProjectData[] = [
     featured: true,
     stars: 1200,
     forks: 98,
-    color: "from-emerald-500 to-teal-600",
+    color: "from-blue-500 to-teal-600",
     glowColor: "rgba(16,185,129,0.4)",
   },
   {
