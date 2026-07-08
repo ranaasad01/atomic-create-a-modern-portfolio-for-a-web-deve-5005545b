@@ -65,7 +65,7 @@ const projects: ProjectData[] = [
     featured: true,
     stars: 890,
     forks: 64,
-    color: "from-cyan-500 to-blue-600",
+    color: "from-cyan-500 to-cyan-600",
     glowColor: "rgba(0,212,255,0.4)",
   },
   {
@@ -81,7 +81,7 @@ const projects: ProjectData[] = [
     featured: true,
     stars: 1200,
     forks: 98,
-    color: "from-blue-500 to-teal-600",
+    color: "from-cyan-500 to-teal-600",
     glowColor: "rgba(16,185,129,0.4)",
   },
   {

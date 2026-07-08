@@ -339,7 +339,7 @@ export default function AboutPage() {
           >
             <motion.div variants={fadeInUp}>
               <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs text-white/60 font-medium mb-4">
-                <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
+                <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
                 Available for new projects
               </span>
               <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-white leading-[1.05]">
@@ -473,11 +473,11 @@ export default function AboutPage() {
                 initial={{ opacity: 0, scale: 0.7 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 1.2, duration: 0.5, type: "spring", stiffness: 200 }}
-                className="absolute top-1/2 -right-10 -translate-y-1/2 flex items-center gap-1.5 px-2.5 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 backdrop-blur-md"
+                className="absolute top-1/2 -right-10 -translate-y-1/2 flex items-center gap-1.5 px-2.5 py-1.5 rounded-full border border-cyan-500/30 bg-cyan-500/10 backdrop-blur-md"
                 style={{ transform: "translateZ(50px)" }}
               >
-                <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
-                <span className="text-blue-400 text-[10px] font-semibold">
+                <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
+                <span className="text-cyan-400 text-[10px] font-semibold">
                   Open to work
                 </span>
               </motion.div>
