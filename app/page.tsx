@@ -330,7 +330,12 @@ function HeroSection() {
             variants={fadeInUp}
             className="font-space-grotesk text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance leading-[1.05] mb-6"
           >
-            <span className="text-white" data-atomic-id="acp7fkn">{t("hero.headline1")}</span>
+            <span
+              className="text-white"
+              data-atomic-id="acp7fkn"
+              style={{
+                color: "#06b6d4"
+              }}>{t("hero.headline1")}</span>
             <br data-atomic-id="a1s70rp7" />
             <span
               className="bg-clip-text text-transparent"
