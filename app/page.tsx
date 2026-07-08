@@ -632,8 +632,9 @@ function TestimonialsSection() {
         data-atomic-id="a1u6qc0k"
         style={{
           color: "#84cc16",
-          fontSize: "64px",
-          borderRadius: "50%"
+          fontSize: "72px",
+          borderRadius: "50%",
+          margin: "40px"
         }}>
         {/* Header */}
         <motion.div
